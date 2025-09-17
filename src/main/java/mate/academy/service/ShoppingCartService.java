@@ -1,11 +1,10 @@
 package mate.academy.service;
 
-import mate.academy.dao.TicketDao;
 import mate.academy.model.MovieSession;
 import mate.academy.model.ShoppingCart;
 import mate.academy.model.User;
 
-public interface ShoppingCartService extends TicketDao {
+public interface ShoppingCartService {
     /**
      * This method is responsible for adding a Ticket to the ShoppingCart
      * @param movieSession contains the information required for the ticket
